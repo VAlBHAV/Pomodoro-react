@@ -78,9 +78,9 @@ class App extends Component {
 
     return (
         <div> 
-          <span className="title"> ReactJs Pomodoro Clock </span>
+          <span className="title"> Pomodoro Clock </span>
             <div className="container">
-            <span> Advanced FrontEnd Development Project </span>
+            <span> FrontEnd Development Project </span>
             <div id="clock" 
               style={this.state.timeStart ? {
       'border' : '2px solid ' + 'green',
@@ -105,11 +105,10 @@ class App extends Component {
        </div>
         
               <div style={{marginTop: '40px'}}>
-                <span style={{float: 'left'}}> Deployed Heroku App: <a href="https://gpbaculio-pomodoro-clock.herokuapp.com/" target="_blank" > link </a> </span>
-                <span style={{float: 'right'}}> Github Repo: <a href="https://github.com/iamglenbacs/gpbaculio-pomodoro-clock" target="_blank" > link </a> </span>
+                <span style={{float: 'right'}}> Github Repo: <a href="https://github.com/VAlBHAV/Pomodoro-react" target="_blank" > link </a> </span>
             </div>
             </div>
-          <span className="footer"> Developed by Glendon Philipp Baculio </span>
+          <span className="footer"> Developed by Vaibhav Verma </span>
         </div>
     )
   }
